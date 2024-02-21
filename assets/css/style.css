@@ -18,7 +18,7 @@
     --logo-color:#0000ff;
     --back-color:rgba(251, 231, 239, 1);
     --big-font:3.8rem;
-    --h2-font:2.6rem;
+    --h2-font:1.6rem;
     --p-font:1.1rem;
 }
 body{
@@ -369,6 +369,7 @@ letter-spacing: 2px;
     font-size: var(--h2-font);
     line-height: 1.2;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .about-text p{
@@ -377,21 +378,24 @@ letter-spacing: 2px;
     font-weight: 500;
     line-height: 30px;
     margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 .about-text h4{
  font-size: 20px;
  margin-bottom: 10px;
+ margin-left: 50px;
 }
 .about-text h5{
     font-size: 20px;
  margin-bottom: 40px;
+ margin-left: 50px;
 }
 
 
 .contact{
     padding: 60px 13%;
-    background: var(--back-color);
+    background: var(--bg-color);
 }
 .main-content{
     display: grid;
@@ -445,6 +449,7 @@ letter-spacing: 2px;
 .testim {
 		width: 100%;
 		position: relative;
+        background: var(--back-color);
         
 }
 
